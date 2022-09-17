@@ -11,6 +11,8 @@
 		2DFC4C5928D5653300087AAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC4C5828D5653300087AAB /* ContentView.swift */; };
 		2DFC4C5B28D5653500087AAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFC4C5A28D5653500087AAB /* Assets.xcassets */; };
 		2DFC4C5E28D5653500087AAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFC4C5D28D5653500087AAB /* Preview Assets.xcassets */; };
+		2DFC4C6628D5679800087AAB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC4C6528D5679800087AAB /* Model.swift */; };
+		2DFC4C6828D567E900087AAB /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC4C6728D567E900087AAB /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		2DFC4C5828D5653300087AAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DFC4C5A28D5653500087AAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DFC4C5D28D5653500087AAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DFC4C6428D565B100087AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2DFC4C6528D5679800087AAB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2DFC4C6728D567E900087AAB /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +56,13 @@
 		2DFC4C5528D5653300087AAB /* Module5Lesson14Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				2DFC4C6428D565B100087AAB /* Info.plist */,
 				2DFC4C5628D5653300087AAB /* Module5Lesson14ChallengeApp.swift */,
 				2DFC4C5828D5653300087AAB /* ContentView.swift */,
 				2DFC4C5A28D5653500087AAB /* Assets.xcassets */,
 				2DFC4C5C28D5653500087AAB /* Preview Content */,
+				2DFC4C6528D5679800087AAB /* Model.swift */,
+				2DFC4C6728D567E900087AAB /* ViewModel.swift */,
 			);
 			path = Module5Lesson14Challenge;
 			sourceTree = "<group>";
@@ -137,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DFC4C6628D5679800087AAB /* Model.swift in Sources */,
 				2DFC4C5928D5653300087AAB /* ContentView.swift in Sources */,
+				2DFC4C6828D567E900087AAB /* ViewModel.swift in Sources */,
 				2DFC4C5728D5653300087AAB /* Module5Lesson14ChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +280,7 @@
 				DEVELOPMENT_TEAM = 34U48DA5XH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Module5Lesson14Challenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +310,7 @@
 				DEVELOPMENT_TEAM = 34U48DA5XH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Module5Lesson14Challenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -8,12 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var model: TriviaModel
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
+        VStack(spacing: 20) {
+            Image(systemName: "brain.head.profile")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            
+            Text(model.trivia)
+                .multilineTextAlignment(.center)
+            
+            Button("Get a new fact!") {
+                model.fetchRandomTrivia()
+            }
         }
         .padding()
     }
@@ -22,5 +30,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(TriviaModel())
     }
 }

@@ -12,6 +12,7 @@ struct Module5Lesson14ChallengeApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(TriviaModel())
         }
     }
 }
